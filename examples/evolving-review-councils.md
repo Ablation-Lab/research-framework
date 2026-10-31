@@ -75,11 +75,11 @@ flowchart TD
 
 | Claim | Source link | Supports or challenges | How close to my setup | Confidence |
 |---|---|---|---|---|
-| Multi-agent setups may just be expensive repeated sampling. | "Beyond Symmetric Agents" (2026 preprint), link to add | Challenges the claim that councils beat one reviewer rerun | Partial | Medium |
+| Multi-agent setups may just be expensive repeated sampling. At matched budget, debate tied or lost to majority voting over repeated samples, and persona prompting lowered accuracy. | [Ferreira, Liu and Zheng, "Beyond Symmetric Agents" (2026 preprint)](https://arxiv.org/abs/2609.35875) | Challenges the claim that councils beat one reviewer rerun | Partial | Medium |
 
 | Source | What's different from my setup | Test that would settle it |
 |---|---|---|
-| "Beyond Symmetric Agents" (2026) | It tested personas inside a debate, not specialist reviewers working independently with real task briefs. Related, but not the same. | Council versus one reviewer rerun the same number of times, same cost, same code. Include all-generalist councils to separate role effects from sampling. |
+| "Beyond Symmetric Agents" (2026) | It tested personas inside a debate, not specialist reviewers working independently with real task briefs. It used small open-weight models only, and code review wasn't one of its tasks. Related, but not the same. | Council versus one reviewer rerun the same number of times, same cost, same code. Include all-generalist councils to separate role effects from sampling. |
 
 ## 5. Objections ("why not just...?")
 
